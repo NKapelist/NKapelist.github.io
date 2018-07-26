@@ -1,2 +1,21 @@
-@import "_reset.scss";
-@import "_var.scss";
+@import "_reset";
+@import "_var";
+@import "_section_header";
+@import "_section_hero";
+
+html, body {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    color: $text_color;
+}
+.wrapper {
+    min-width: 320px;
+    margin: auto;
+}
+.section {
+    width: 100%;
+}
+.row {
+    width: 85%;
+    margin: auto;
+}
