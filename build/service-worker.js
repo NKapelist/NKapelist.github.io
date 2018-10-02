@@ -37,8 +37,8 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["1353ac512f8cc81ae5282976705a6c94.jpg","1353ac512f8cc81ae5282976705a6c94"],["index.html","213adc4bfa4732ebab6c11eb97790973"],["main.js","4ba1e44ea6f6a9ea336676e56cd0af9c"],["service-worker.js","1d16b579dcded5f8974dc7d527987bba"]];
-var cacheName = 'sw-precache-v3-portfolio0.10692546059403862-' + (self.registration ? self.registration.scope : '');
+var precacheConfig = [["1353ac512f8cc81ae5282976705a6c94.jpg","1353ac512f8cc81ae5282976705a6c94"],["favicon.ico","ab3d3aefe5750e2910ec6c864715a0cf"],["index.html","5a8772ddde099f846bb0f50e031d09ed"],["main.js","f5e1d1ba780e1d9de193b2b53a67b09e"],["service-worker.js","47347bb043e0b7ee770236bc63f141d4"]];
+var cacheName = 'sw-precache-v3-portfolio0.040660356609442116-' + (self.registration ? self.registration.scope : '');
 
 
 var ignoreUrlParametersMatching = [/^utm_/];

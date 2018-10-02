@@ -1,0 +1,97 @@
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 3;  
+}
+.header_row {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding: 15px 0;
+}
+.header__col-logo {
+    text-decoration: none;
+    color: $text_color;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    width: 115px;
+    .theme {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: orange;
+        position: absolute;
+        margin-top: 22px;
+        margin-left: 5px;
+    }
+}
+.header__col-nav {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.header-nav__content {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+.header-nav__item {
+    list-style: none;
+}
+.header-nav__item-theme {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    display: block;
+    color: $text_color;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+    box-sizing: border-box;
+    span {
+        position: absolute;
+        width: 25%;
+        height: 100%;
+        background: linear-gradient(to bottom, #FF6F00, #FFC107);
+        z-index: -1;
+        transform-origin: top;
+        transform: scaleY(0);
+        transition: transform .5s;
+        &:nth-child(1) {
+            left: 0;
+            transition-delay: 0s;
+        }
+        &:nth-child(2) {
+            left: 25%;
+            transition-delay: 0.15s;
+        }
+        &:nth-child(3) {
+            left: 50%;
+            transition-delay: 0.3s;
+        }
+        &:nth-child(4) {
+            left: 75%;
+            transition-delay: 0.45s;
+        }
+    }
+    &:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+    &:hover span {
+        transform-origin: bottom;
+        transform: scaleY(1);
+    }
+}
+@media (max-width: 768px) {
+    .header__col-nav {
+        display: none;
+    }
+}
