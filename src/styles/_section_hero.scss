@@ -1,10 +1,8 @@
 .section_hero {
     min-height: 700px;
     position: relative;
-    background-image: url(../../assets/img/matthew-henry-136723-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url(../../assets/img/matthew-henry-136723-unsplash.jpg) no-repeat center;
+    // background-size: cover;
     .color_fill {
         width: 100%;
         min-height: 700px;
