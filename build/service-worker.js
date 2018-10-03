@@ -37,8 +37,8 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["1353ac512f8cc81ae5282976705a6c94.jpg","1353ac512f8cc81ae5282976705a6c94"],["favicon.ico","ab3d3aefe5750e2910ec6c864715a0cf"],["index.html","a33c2fb8bb9a5c042dfe86226bf53694"],["main.js","c06156691f5ca271bab3faf09fb8d916"],["service-worker.js","e26b771c9235e62b65389fadd8223243"]];
-var cacheName = 'sw-precache-v3-portfolio0.2620483974559604-' + (self.registration ? self.registration.scope : '');
+var precacheConfig = [["1353ac512f8cc81ae5282976705a6c94.jpg","1353ac512f8cc81ae5282976705a6c94"],["favicon.ico","ab3d3aefe5750e2910ec6c864715a0cf"],["index.html","2f3bfc606b304675eef517713c3bc45e"],["main.js","09264c4c345d996654ddba4ef36d73d9"],["service-worker.js","8188374dd12213f220e4bdc70d3f8974"]];
+var cacheName = 'sw-precache-v3-portfolio0.3683166043519135-' + (self.registration ? self.registration.scope : '');
 
 
 var ignoreUrlParametersMatching = [/^utm_/];

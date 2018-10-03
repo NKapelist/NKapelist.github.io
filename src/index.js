@@ -7,7 +7,7 @@ function makeShadow() {
       $('.header').css('transition', '0s');
     } else {
       $('.header').css('background', 'white');
-      $('.header').css('box-shadow', '0 1px 27px -3px rgba(0,0,0,.2)');
+      $('.header').css('box-shadow', '0 1px 27px -3px rgba(0,0,0,.5)');
       $('.header').css('transition', '0.9s');
     }
 }
