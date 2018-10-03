@@ -6,6 +6,7 @@
 .header_row {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     flex-flow: row nowrap;
     padding: 15px 0;
 }
@@ -18,7 +19,6 @@
     display: inline-block;
     min-width: 95px;
     width: 8%;
-    // background-color: green;
     .theme {
         width: 6px;
         height: 6px;
@@ -32,10 +32,7 @@
 .header__col-nav {
     width: 92%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
-    // background-color: pink;
 }
 .header-nav__content {
     width: 100%;
@@ -132,14 +129,9 @@
         }
         .closebtn {
             position: absolute;
-            top: 0;
+            top: 20px;
             left: 25px;
-            font-size: 56px;
-            margin-right: 50px;
+            font-size: 50px;
         }
     }
-}
-@media screen and (max-height: 450px) {
-    .burger-controller {padding-top: 15px;}
-    .burger-controller a {font-size: 18px;}
 }
