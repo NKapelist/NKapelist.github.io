@@ -1,11 +1,11 @@
 .section_hero {
-    min-height: 700px;
+    height: 100vh;
     position: relative;
     background: url(../../assets/img/matthew-henry-136723-unsplash.jpg) no-repeat center;
     // background-size: cover;
     .color_fill {
         width: 100%;
-        min-height: 700px;
+        height: 100vh;
         background-color: white;
         opacity: 0.5;
         position: absolute;
@@ -13,7 +13,7 @@
 }
 .section_hero__content {
     width: 100%;
-    min-height: 700px;
+    height: 100vh;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -24,26 +24,13 @@
     text-align: center;
     h1 {
         font-size: 3.5em;
-        padding: 15px 0;
+        padding: 18px 0;
     }
     h2 {
         color: white;
         font-size: 2.2em;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -57,14 +44,4 @@
         font-size: 1.5em;
     }
 }
-@media only screen and (max-height: 450px) {
-    .section_hero {
-        min-height: 450px;
-        .color_fill {
-            min-height: 450px;
-        }
-    }
-    .section_hero__content {
-        min-height: 450px;
-    }
-}
+
