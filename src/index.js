@@ -1,5 +1,7 @@
 import './styles/styles.scss';
+import Typed from 'typed.js';
 
+// header shadow
 function makeShadow() {
     if ($(window).scrollTop() == 0) {
       $('.header').css('background', 'transparent');
@@ -17,6 +19,7 @@ $(window).scroll(function() {
     makeShadow();
 });
 
+// burger menu open/close button 
 window.openNav = function () {
   document.getElementById("col-burger-controller").style.width = "100%";
 }
@@ -24,3 +27,13 @@ window.openNav = function () {
 window.closeNav = function () {
   document.getElementById("col-burger-controller").style.width = "0";
 }
+
+
+var typedText = new Typed('#typed', {
+  stringsElement: '#typed_strings',
+  typeSpeed: 50,
+  backSpeed: 40,
+  backDelay: 1000,
+  startDelay: 500,
+  loop: true
+});
