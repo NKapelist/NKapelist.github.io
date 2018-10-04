@@ -6,8 +6,8 @@
     .color_fill {
         width: 100%;
         min-height: 700px;
-        background-color: #EFEBE9;
-        opacity: 0.4;
+        background-color: white;
+        opacity: 0.5;
         position: absolute;
     }
 }
@@ -18,9 +18,53 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    // background-color: yellow;
     position: relative;
 }
 .who_i_am {
     text-align: center;
+    h1 {
+        font-size: 3.5em;
+        padding: 15px 0;
+    }
+    h2 {
+        color: white;
+        font-size: 2.2em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+    .who_i_am h1 {
+        font-size: 1.5em;
+        padding: 15px 0;
+    }
+    .who_i_am h2 {
+        color: white;
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-height: 450px) {
+    .section_hero {
+        min-height: 450px;
+        .color_fill {
+            min-height: 450px;
+        }
+    }
+    .section_hero__content {
+        min-height: 450px;
+    }
 }
