@@ -1,5 +1,6 @@
 .section_hero {
     height: 100vh;
+    font-family: 'Montserrat', sans-serif;
     .color_fill {
         width: 100%;
         height: 100vh;
@@ -23,16 +24,17 @@
     text-align: center;
     width: 100%;
     margin-top: 50px;
+    color: #4E342E;
     h1 {
-        font-size: 3.5em;
-        padding: 18px 0;
+        font-size: 3em;
+        margin: 18px 0;
+        color: $text_color;
+        font-family: 'Chivo', sans-serif;
     }
     h2 {
-        color: white;
         font-size: 2.2em;
     }
     span {
-        color: white;
         font-size: 36px;
         font-weight: bold;
         width: 100%;
@@ -62,8 +64,9 @@
         background: linear-gradient(to right, #fa8925, #f6d51f);
         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
         &:hover {
-            background: linear-gradient(to left, #fa8925, #f6d51f);
+            background: white;
             box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.3);
+            color: #4E342E;
         }
     }
 }
@@ -71,7 +74,7 @@
 @media only screen and (max-width: 736px) {
     .who_i_am h1 {
         font-size: 1.7em;
-        padding: 15px 0;
+        margin: 15px 0;
     }
     .who_i_am h2 {
         font-size: 1.5em;
@@ -79,8 +82,5 @@
     .who_i_am span {
         font-size: 24px;
     }
-    // .contact_me {
-    //     margin-top: 30px;
-    // }
 }
 
