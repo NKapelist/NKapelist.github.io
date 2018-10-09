@@ -1,10 +1,10 @@
 .section_hero {
     height: 100vh;
-    font-family: 'Montserrat', sans-serif;
+
     .color_fill {
         width: 100%;
         height: 100vh;
-        background-color: white;
+        background-color: black;
         opacity: 0.5;
         position: absolute;
     }
@@ -23,12 +23,13 @@
 .who_i_am {
     text-align: center;
     width: 100%;
-    margin-top: 50px;
-    color: #4E342E;
+    margin-top: 70px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
     h1 {
-        font-size: 3em;
+        font-size: 3.3em;
         margin: 18px 0;
-        color: $text_color;
+        color: #E0E0E0;
         font-family: 'Chivo', sans-serif;
     }
     h2 {
@@ -44,7 +45,7 @@
     }
 }
 .contact_me {
-    margin-top: 40px;
+    margin-top: 50px;
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
@@ -61,11 +62,11 @@
         text-decoration: none;
         text-align: center;
         color: white;
-        background: linear-gradient(to right, #fa8925, #f6d51f);
-        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+        background: linear-gradient(to right, #fc4628, #fc4628);
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
         &:hover {
             background: white;
-            box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.7);
             color: #4E342E;
         }
     }

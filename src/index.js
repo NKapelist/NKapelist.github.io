@@ -7,10 +7,12 @@ function makeShadow() {
       $('.header').css('background', 'transparent');
       $('.header').css('box-shadow', 'none');
       $('.header').css('transition', '0s');
+      $('.header__col-logo, .header-nav__item-theme, .burger-controller_icon').css('color', 'white');
     } else {
       $('.header').css('background', 'white');
       $('.header').css('box-shadow', '0 1px 27px -3px rgba(0,0,0,.5)');
       $('.header').css('transition', '0.7s');
+      $('.header__col-logo, .header-nav__item-theme, .burger-controller_icon').css('color', '#424242');
     }
 }
 makeShadow();
