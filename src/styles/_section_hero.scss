@@ -1,5 +1,6 @@
 .section_hero {
     height: 100vh;
+    background: url(../../assets/img/vadim-sherbakov-277610-unsplash.jpg) no-repeat center / cover;
 
     .color_fill {
         width: 100%;
@@ -62,8 +63,9 @@
         text-decoration: none;
         text-align: center;
         color: white;
-        background: linear-gradient(to right, #fc4628, #fc4628);
+        background: linear-gradient(to right, #fe0229, #fe0229);
         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+        // font-size: 15px;
         &:hover {
             background: white;
             box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.7);
