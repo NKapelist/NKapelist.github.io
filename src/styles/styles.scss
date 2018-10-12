@@ -2,6 +2,7 @@
 @import "_var";
 @import "_header";
 @import "_section_hero";
+@import "_section_about";
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Chivo');
@@ -21,4 +22,22 @@ html, body {
 .row {
     width: 85%;
     margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 15px 0;
 }
+.section__heading, .section__content {
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+// .section__heading {
+//     font-size: 1.5em;
+// }
+

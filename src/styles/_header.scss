@@ -5,6 +5,8 @@
     height: 55px;
 }
 .header_row {
+    width: 85%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -13,9 +15,7 @@
 }
 .header__col-logo {
     text-decoration: none;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
+    font: bold 25px 'Montserrat', sans-serif;
     display: inline-block;
     min-width: 100px;
     width: 10%;
@@ -31,7 +31,6 @@
 }
 .header__col-nav {
     width: 90%;
-    display: flex;
     position: relative;
 }
 .header-nav__content {
@@ -43,18 +42,16 @@
 }
 .header-nav__item {
     list-style: none;
-    margin: 0 20px;
+    margin: 0 18px;
     &:last-child {
         margin-right: 0;
     }
     a.active {
-        border-bottom: 1px solid;
-      }
+        border-bottom: 1px solid #fe0229;
+    }
 }
 .header-nav__item-theme {
     position: relative;
-    // width: 100px;
-    
     height: 30px;
     display: block;
     line-height: 30px;
@@ -62,40 +59,9 @@
     text-decoration: none;
     transition: .5s;
     box-sizing: border-box;
-    // 
-    // span {
-    //     position: absolute;
-    //     width: 25%;
-    //     height: 100%;
-    //     background: linear-gradient(to bottom, #fa8925, #f6d51f);
-    //     z-index: -1;
-    //     transform-origin: top;
-    //     transform: scaleY(0);
-    //     transition: transform .5s;
-    //     &:nth-child(1) {
-    //         left: 0;
-    //         transition-delay: 0s;
-    //     }
-    //     &:nth-child(2) {
-    //         left: 25%;
-    //         transition-delay: 0.15s;
-    //     }
-    //     &:nth-child(3) {
-    //         left: 50%;
-    //         transition-delay: 0.3s;
-    //     }
-    //     &:nth-child(4) {
-    //         left: 75%;
-    //         transition-delay: 0.45s;
-    //     }
-    // }
     &:hover {
-        border-bottom: 1px solid;
+        border-bottom: 1px solid #fe0229;
     }
-    // &:hover span {
-    //     transform-origin: bottom;
-    //     transform: scaleY(1);
-    // }
 }
 .header__col-burger-controller {
     display: none;

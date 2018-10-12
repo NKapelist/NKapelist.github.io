@@ -1,6 +1,6 @@
 .section_hero {
     height: 100vh;
-    background: url(../../assets/img/vadim-sherbakov-277610-unsplash.jpg) no-repeat center / cover;
+    background: url(../../assets/img/crew-22233-unsplash.jpg) no-repeat center / cover;
 
     .color_fill {
         width: 100%;
@@ -28,10 +28,9 @@
     color: white;
     font-family: 'Montserrat', sans-serif;
     h1 {
-        font-size: 3.3em;
+        font: bold 3.3em 'Chivo', sans-serif;
         margin: 18px 0;
         color: #E0E0E0;
-        font-family: 'Chivo', sans-serif;
     }
     h2 {
         font-size: 2.2em;
@@ -63,13 +62,12 @@
         text-decoration: none;
         text-align: center;
         color: white;
-        background: linear-gradient(to right, #fe0229, #fe0229);
+        background: #fe0229;
         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
-        // font-size: 15px;
         &:hover {
             background: white;
             box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.7);
-            color: #4E342E;
+            color: $text_color;
         }
     }
 }
