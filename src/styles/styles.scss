@@ -35,9 +35,10 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: pink;
+    // background-color: pink;
 }
-// .section__heading {
-//     font-size: 1.5em;
-// }
+.section__heading {
+    padding-top: 20px;
+    font-size: 1.2em;
+}
 
