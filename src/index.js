@@ -42,6 +42,7 @@ var typedText = new Typed('#typed', {
   loop: true
 });
 
+//section navigation
 var sections = $('section'),
     nav = $('.header__col-nav'),
     nav_height = nav.outerHeight();
