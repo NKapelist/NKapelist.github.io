@@ -37,8 +37,8 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["favicon.ico","ab3d3aefe5750e2910ec6c864715a0cf"],["index.html","82a1b59eb5d1c8a7473d5490cab5b4dc"],["main.js","83d7e268413bd212656c8311e806d612"],["service-worker.js","6a5206f069ddccc270909f842c0d7f9a"]];
-var cacheName = 'sw-precache-v3-portfolio0.36377763743388636-' + (self.registration ? self.registration.scope : '');
+var precacheConfig = [["favicon.ico","ab3d3aefe5750e2910ec6c864715a0cf"],["index.html","78c6ea46dcc1ff90a89db0230a72d6ed"],["main.js","718c62d8e48de6f0027b6fa2e3f5f9cf"],["service-worker.js","0d3b1773e00b7e2b03f91a8e3699e24d"]];
+var cacheName = 'sw-precache-v3-portfolio0.14251344647155517-' + (self.registration ? self.registration.scope : '');
 
 
 var ignoreUrlParametersMatching = [/^utm_/];

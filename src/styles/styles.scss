@@ -35,18 +35,17 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    // background-color: pink;
 }
 .section__heading {
     padding: 25px 0;
     font-size: 1.3em;
+}
+.section__title {
     color: #2c806f;
-    h1 {
-        position: relative;
-        display: inline-block;
-        padding-bottom: 8px
-    }
-    h1:before {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 8px;
+    &:before {
         content: "";
         position: absolute;
         bottom: -4px;
@@ -55,10 +54,10 @@ html, body {
         width: 6px;
         height: 6px;
         border-radius: 50%;
-        background: orange;
-        z-index: 2;
+        background: #2c806f;
+        z-index: 1;
     }
-    h1:after {
+    &:after {
         content: "";
         position: absolute;
         bottom: -1px;
@@ -66,6 +65,6 @@ html, body {
         width: 70%;
         height: 1px;
         background: #2c806f;
-      }
+    }
 }
 
