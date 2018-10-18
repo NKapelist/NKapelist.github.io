@@ -40,6 +40,32 @@ html, body {
 .section__heading {
     padding: 25px 0;
     font-size: 1.3em;
-    color: #449c73;
+    color: #2c806f;
+    h1 {
+        position: relative;
+        display: inline-block;
+        padding-bottom: 8px
+    }
+    h1:before {
+        content: "";
+        position: absolute;
+        bottom: -4px;
+        left: 50%;
+        margin-left: -3px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: orange;
+        z-index: 2;
+    }
+    h1:after {
+        content: "";
+        position: absolute;
+        bottom: -1px;
+        margin-left: -85%;
+        width: 70%;
+        height: 1px;
+        background: #2c806f;
+      }
 }
 
